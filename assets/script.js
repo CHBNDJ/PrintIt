@@ -36,7 +36,7 @@ arrows.forEach(arrow => {
 	arrow.addEventListener("click", () => {
 		document.getElementById('dot' + cursor).className = 'dot'
 		if (arrow.classList.contains('arrow_right')) {
-			cursor + 1 === 4 ? cursor = 1 : cursor++
+			cursor + 1 === 5 ? cursor = 1 : cursor++
 		} else {
 			cursor - 1 === 0 ? cursor = 4 : cursor--
 		}
